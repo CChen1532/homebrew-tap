@@ -1,6 +1,6 @@
 cask "wallpaperui" do
   version "0.2.41-preview.1"
-  sha256 "ebeb3ec2c5bc5e341ab8b2dacaeff2a00aa49ef36b759e29bd786ed29dd540d2"
+  sha256 "a06069651a30edf15304123751085e26d8ed0ae9f46db53fb18b6f216f962cac"
 
   url "https://github.com/CChen1532/wallpaper-library/releases/download/v#{version}/WallpaperUI-#{version}.zip"
   name "WallpaperUI"
