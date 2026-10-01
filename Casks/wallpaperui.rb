@@ -1,6 +1,6 @@
 cask "wallpaperui" do
-  version "0.2.69-preview.1"
-  sha256 "35dfb3e819ad2e8051bdbd7675e018504cd6dd7146211b80f739b9c8898a90b3"
+  version "0.2.73-preview.1"
+  sha256 "7de4a868242dcc47df6917e9a5859c88cc2a0f8b0cd6b44d0cda09b20e6feb92"
 
   url "https://github.com/CChen1532/wallpaper-library/releases/download/v#{version}/WallpaperUI-#{version}.zip"
   name "WallpaperUI"
@@ -9,10 +9,10 @@ cask "wallpaperui" do
 
   livecheck do
     url :url
-    strategy :github_latest
+    strategy :github_releases
   end
 
-  depends_on macos: :sonoma
+  depends_on macos: :sequoia
   depends_on arch: :arm64
 
   app "WallpaperUI.app"
